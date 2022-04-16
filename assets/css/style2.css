@@ -215,7 +215,7 @@ header .container {
   align-items: center;
 }
 
-.header-nav-wrapper { position: relative; }
+.header-nav-wrapper { position: relative;}
 
 .navbar {
   background: var(--onyx-1);
@@ -257,7 +257,7 @@ header .container {
 }
 
 .header-actions { display: none; }
-
+.header-actions1 { display: none; }
 
 
 
@@ -1082,21 +1082,29 @@ header .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
   }
 
   .header-actions {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: left;
+    gap: 150px;
   }
 
+  .header-actions1 {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+  }
   .search-field {
     background: var(--eerie-black-1);
-    color: var(--gray-web);
+    color: var(--white);
     padding: 0 15px;
-    border: 1px solid var(--onyx-1);
-    border-radius: 4px;
+    border: 1px solid var(--eerie-black-1);
+    font-size: large;
+    border-radius: 10px;
+    height:44px;
+    width: 450px;
+
   }
 
 

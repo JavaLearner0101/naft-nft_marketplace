@@ -207,9 +207,3 @@ Item Details
 24/7 Supports
 Blog
 
-2022 @codewithsadee all rights reserved
-
-Privacy Policy
-Terms & Conditions
-
-<ion-icon name="arrow-up-outline"></ion-icon>
